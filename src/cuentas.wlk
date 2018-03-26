@@ -13,10 +13,11 @@ object cuentaDeJulian {
 	method saldo() = saldo
 	
 	method depositar(monto) {
-		// TODO
+		saldo += monto *0.80
 	} 
 
 	method extraer(monto) {
-		// TODO
+		saldo -= monto
+		if (saldo >= 5) saldo -= 5
 	}
 }
