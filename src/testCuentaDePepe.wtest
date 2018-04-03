@@ -13,6 +13,6 @@ describe "cuenta de pepe" {
 	test "extraer" {
 		cuentaDePepe.depositar(100)
 		cuentaDePepe.extraer(20)
-		assert.equals(80, cuentaDeJulian.saldo())
+		assert.equals(80, cuentaDePepe.saldo())
 	}
 }
